@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Главная</title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1>INSTAHLAM</h1>
+				<img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="logo" height="200" width="200">
+			</div>
+		</header>
+		<main>
+			<div>
+				<h2>Войти</h2>
+				<form action="feed.html" method="post" name="ent">
+					<label>E-Mail<input type="email" name="emailEnt" required></label><br>
+					<label>Пароль<input type="password" name="pswdEnt" required></label><br>
+					<input type="submit" value="Войти"><br>
+				</form>
+			</div>
+
+			<div>
+				<h2>Зарегистрироваться</h2>
+				<form action="feed.html" method="post" name="reg">
+					<label>Логин<input type="text" name="loginReg" required></label><br>
+					<label>E-Mail<input type="email" name="emailReg" required></label><br>
+					<label>Пароль<input type="password" name="pswdReg1" required></label><br>
+					<label>Повторите пароль<input type="password" name="pswdReg2" required></label><br>
+					<label>Я согласен, честно<input type="checkbox" name="isAgree" required></label>	<br>
+					<input type="submit" value="Зарегистрироваться"><br>
+				</form>
+			</div>	
+		</main>
+	</body>
+</html>
