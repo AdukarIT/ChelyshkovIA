@@ -8,5 +8,5 @@
 * **[task2](https://github.com/AdukarIT/ChelyshkovIA/tree/master/homework2/task2)**
 
 ## HomeWork3 
-* **[task1](https://github.com/AdukarIT/ChelyshkovIA/tree/master/homework3/task1)** 
-* **[task2](https://github.com/AdukarIT/ChelyshkovIA/tree/master/homework3/task2)**
+* **[task1](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork3/task1)** 
+* **[task2](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork3/task2)**
