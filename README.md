@@ -10,3 +10,6 @@
 ## HomeWork3 
 * **[task1](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork3/task1)** 
 * **[task2](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork3/task2)**
+
+## Practice
+* **[title page - JSFiddle](https://jsfiddle.net/kzopej7c/)** 
