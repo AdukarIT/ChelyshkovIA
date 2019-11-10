@@ -13,3 +13,6 @@
 
 ## Практика - Основы CSS
 * **[title page - JSFiddle](https://jsfiddle.net/kzopej7c/)** 
+
+## ДЗ - Float. Псевдоклассы и составные селекторы 
+* **[task1](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork4/task1)** 
