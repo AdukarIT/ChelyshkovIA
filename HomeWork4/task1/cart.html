@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Форма заказа</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="headerTitle">Интернет-магазин бытовой техники DOMA.NET</h1>
+		</header>
+		<main class="main">
+			<div class="menu">
+				<div class="section">
+					<h2>Бытовая техника</h2>
+					<ul class="titleList">
+						<li><div class="title">Стриальные машины</div></li>
+						<li><div class="title">Пылесосы</div></li>
+						<li><div class="title">Швейные, вышивальные машины</div></li>
+						<li><div class="title">Утюги</div></li>
+						<li><div class="title">Электровеники</div></li>
+						<li><div class="title">Сушилки для обуви</div></li>
+					</ul>
+				</div><!--
+				--><div class="section">
+					<h2>Техника для кухни</h2>
+					<ul class="titleList">
+						<li><div class="title">Холодильники</div></li>
+						<li><div class="title">Кухонные плиты</div></li>
+						<li><div class="title">Морозильники</div></li>
+						<li><div class="title">Настольные плиты</div></li>
+						<li><div class="title">Ростеры, мини-печи</div></li>
+						<li><div class="title">Вытяжки</div></li>
+						<li><div class="title">Микроволновые печи</div></li>
+					</ul>
+				</div><!--
+				--><div class="section">
+					<h2>Компьютерная техника</h2>
+					<ul class="titleList">
+						<li><div class="title">Ноутбуки</div></li>
+						<li><div class="title">Планшеты</div></li>
+						<li><div class="title">Компьютеры, моноблоки</div></li>
+						<li><div class="title">Игровые приставки</div></li>
+						<li><div class="title">Серверное оборудование</div></li>
+					</ul>
+				</div><!--
+				--><div class="section">
+					<h2>Корзина</h2>
+				</div>
+			</div><!--
+
+			
+
+			--><div class="sendingOrder">
+				<form action="#" method="post" name="sending" id="sending">
+					<div class="formElement">
+						<label for="fam">Фамилия:</label>
+						<input id="fam" type="text" placeholder="Введите фамилию" name="fam" required>
+					</div>
+					
+					<div class="clear"></div>
+					<div class="formElement">
+						<label for="name">Имя:</label>
+						<input id="name" type="text" placeholder="Введите имя" name="name" required>
+					</div>
+
+
+					<div class="clear"></div>
+					<div class="formElement">
+						<label for="tel">Телефон:</label>
+						<input id="tel" type="text" placeholder="Введите телефон" name="tel" required>
+					</div>
+
+					<div class="clear"></div>
+					<div class="formElement">
+						<label for="email">E-Mail:</label>
+						<input id="email" type="email" placeholder="Введите адрес электронной почты" name="email" required>
+					</div>
+					
+					<div class="clear"></div>
+					<p>Выбор способа доставки:</p>
+					<div class="formElement">
+						<input id="pickup" type="radio" name="sendingWay" required>
+						<label for="pickup">Самовывоз со склада по адресу </label>
+					</div>
+					
+					<div class="clear"></div>
+					<div class="formElement">	
+						<label for="map" title="Нажмите, чтобы посмотреть на карте">пр. Независимости 1 </label>
+						<input class="checkboxMap" id="map" type="checkbox" name="map" >
+					
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d698.9952401392417!2d27.54417579389751!3d53.893886769788026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfe702bf6b1d%3A0xa9e60e791be651c2!2z0L_RgNC-0YHQv9C10LrRgiDQndC10LfQsNCy0LjRgdC40LzQvtGB0YLQuCAxLCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1573395198346!5m2!1sru!2sby" height="300" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+					<div class="formElement">
+
+						<input id="courier" type="radio" name="sendingWay" required>
+						<label for="courier">Курьером по Минску</label>
+						<div class="clear"></div>
+						<div class="address">
+							<label for="address">Адрес доставки</label>
+							<input id="address" type="text" placeholder="Введите адрес доставки" name="address">
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					
+					<div class="clear"></div>
+					<div class="formElement">
+						<label for="comment">Комментарий:</label>
+						<textarea form="sending" name="comment" id="comment" required> </textarea>
+					</div>
+					
+					<div class="clear"></div>
+					<div class="formElement">
+						<label for="checkAgree">"Я прочитал и согласен с <a href="#">условиями доставки</a>"</label>
+						<input id="checkAgree" type="checkbox" required>
+						<input type="submit" value="Подтвердить заказ">
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<address class="contacts">
+				<ul>
+					<li class="li">Время работы магазина: 09:00 - 20:00 без выходных</li>
+					<li class="li">Адрес офиса: г. Минск, пр. Независимости 1</li>
+					<li class="li">Телефоны:
+					<li class="li">A1: <a href="tel:+375-29-123-45-67" >+375-29-123-45-67</a></li>
+					<li class="li">МТС: <a href="tel:+375-33-987-65-43" >+375-33-987-65-43</a></li>
+					<li class="li">Life: <a href="tel:+375-11-222-33-44" >+375-11-222-33-44</a></li>
+					</li>
+					<li class="li">Skype: doma.net</li>
+				</ul>
+			</address>
+		</footer>
+	</body>
+</html>
