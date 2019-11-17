@@ -16,3 +16,9 @@
 
 ## ДЗ - Float. Псевдоклассы и составные селекторы 
 * **[task1](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork4/task1)** 
+
+## ДЗ - Изображения. Шрифты и иконки 
+* **[beach](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork5/beach)**
+* **[checkbox](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork5/checkbox)**
+* **[like](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork5/like)**
+* **[shopHeader](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork5/shopHeader)**
