@@ -1,0 +1,33 @@
+p{
+	font-size:40px;
+	margin: 0;
+}
+
+input[type="checkbox"]{
+	display:none;
+}
+
+label{
+	display:inline-block;
+	cursor:pointer;
+}
+
+.icon-ok-circled{
+	display: none;
+} 
+
+.icon-ok-circled2{
+	font-size:40px;
+	color:#E51E19FF;
+	display: inline-block;
+} 
+
+input[type="checkbox"]:checked ~ .icon-ok-circled{
+	font-size:40px;
+	color:#1F9D29FF;
+	display:inline-block;
+}
+
+input[type="checkbox"]:checked ~ .icon-ok-circled2{
+	display:none;
+}

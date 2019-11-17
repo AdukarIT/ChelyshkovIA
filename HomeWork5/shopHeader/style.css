@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+}
+
+*{
+	font-family:Arial, sans-swerif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#383838FF;
+	margin: 0;
+}
+
+h1{
+	font-size:55px;
+}
+h2{
+	font-size:35px;
+}
+
+a{
+	text-decoration: none;
+	color:#297ED5FF;
+}
+
+header{
+	width: 90%;
+	margin:0 auto;
+}
+
+
+.logo{
+	display:inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+.title{
+	vertical-align: top;
+	display:inline-block;
+}
+
+.searching{
+	display:inline-block;
+	width: 40%;
+}
+
+input[type="search"]{
+	width: 75%;
+	height: 50px;
+	padding-left:5px;
+}
+
+input[type="submit"]{
+	width: 25%;
+	text-align: center;
+}
+
+.headerElement{
+	box-sizing:border-box;
+	font-size:16px;
+	color:#383838FF;
+	outline:none;
+	background-color:#fff;
+	height: 50px;
+	border-radius:50px;
+	border:3px solid #CB5F38FF;
+	cursor:pointer;
+}
+
+.menu{
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+}
+
+.list{
+	box-sizing: border-box;
+	width: 33.3333%;
+	display:inline-block;
+	font-size:16px;
+	color:#383838FF;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.phoneNumber{
+	box-sizing: border-box;
+	vertical-align: top;
+	display: inline-block;
+	width: 20%;
+	font-size:16px;
+	color:#383838FF;
+	padding-top: 15px;
+	text-align: center;
+
+}
+
+.catalog{
+	border-color:#F9A287FF ;
+}
+
+.news{
+	border-color:#F9DD9DFF ;
+}
+
+.about{
+	border-color:#82D9FFFF ;
+}
+
+.headerElement:hover{
+	border-color:#383838FF;
+}

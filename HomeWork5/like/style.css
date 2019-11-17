@@ -1,0 +1,30 @@
+a{
+	text-decoration: none;
+}
+
+p{
+	margin: 0;
+}
+
+input[type="checkbox"]{
+	display:none;
+}
+
+.icon-heart{
+	color:#ccc;
+	font-size:40px;
+}
+
+.icon-heart:hover{
+	cursor:pointer;
+	color:#5997E7FF;
+}
+
+input[type="checkbox"]:checked + .icon-heart{
+	color:red;
+}
+
+input[type="checkbox"]:checked + .icon-heart:hover{
+	color:rgba(255,0,0,0.3);
+}
+

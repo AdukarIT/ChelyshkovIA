@@ -1,0 +1,7 @@
+.beach{
+	height:100vh;
+	background: url("images/sea.jpg"), url("images/sun.png"), url("images/sky.jpg");
+	background-repeat: no-repeat,no-repeat,repeat;
+	background-position: center bottom, center center, center top;
+	background-size: 100% 200px, 500px 500px, 100% 100vh;
+}
