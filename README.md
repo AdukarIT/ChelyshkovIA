@@ -26,5 +26,12 @@
 ## Практика - CSS. Адаптивный сайт. 
 * **[task](https://github.com/AdukarIT/ChelyshkovIA/tree/master/PracticeCSS)** 
 
+## Практика - CSS 2. Адаптивный сайт. 
+* **[task](https://github.com/AdukarIT/ChelyshkovIA/tree/master/PracticeCSS%20p2)** 
+
+
+
+
+
 
 
