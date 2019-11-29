@@ -29,7 +29,8 @@
 ## Практика - CSS 2. Адаптивный сайт. 
 * **[task](https://github.com/AdukarIT/ChelyshkovIA/tree/master/PracticeCSS%20p2)** 
 
-
+## ДЗ - Flexbox.
+* **[HEADER ДЛЯ АДУКАРА](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork6/task1)**
 
 
 
