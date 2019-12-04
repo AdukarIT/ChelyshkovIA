@@ -31,6 +31,7 @@
 
 ## ДЗ - Flexbox.
 * **[HEADER ДЛЯ АДУКАРА](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork6/task1)**
+* **[VK FEED](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork6/task2)**
 
 
 
