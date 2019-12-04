@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Новости</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fontello-691aaea9/css/fontello.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-center">
+			<div class="icon-vkontakte"></div>
+				
+			<input class="searching-input" type="search" placeholder="Поиск">
+
+			<div class="icon-bell-alt"></div>
+			
+			<div class="player">
+				<div class="icon-to-start"></div>
+				<div class="icon-play"></div>
+				<div class="icon-to-end"></div>
+				<div class="song">
+					<div class="song-title">Ozzy Osborne – Dreamer</div>			
+				</div>
+			</div>
+
+			<div class="top-profile">
+				<div class="user-name">Илья</div>
+				<div class="user-photo"></div>
+				
+				<input type="checkbox" id="account-options">
+				<label for="account-options" class="icon-down-open open-options"></label>
+				<div class="account-options-window">
+					<a class="account-options-link" href="#">Моя страница</a>
+					<div class="account-options-step"></div>
+					<a class="account-options-link" href="#">Редактировать</a>
+					<a class="account-options-link" href="#">Настройки</a>
+					<a class="account-options-link" href="#">Помощь</a>
+					<div class="account-options-step"></div>
+					<a class="account-options-link" href="#">Выйти</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main-content">
+		<nav class="side-bar-inner">
+			<ul>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-home icon-nav"></span>Моя страница</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-doc icon-nav"></span>Новости</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-comment icon-nav"></span>Сообщения</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-users icon-nav"></span>Друзья</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-group icon-nav"></span>Сообщества</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-camera icon-nav"></span>Фотографии</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-music icon-nav"></span>Музыка</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-video icon-nav"></span>Видео</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-gamepad icon-nav"></span>Игры</a></li>
+				<li class="nav-step"></li>			
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-paypal icon-nav"></span>VK Pay</a></li>
+				<li class="nav-step"></li>	
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-shopping-bag icon-nav"></span>Товары</a></li>
+				<li class="nav-link-title"><a class="nav-link" href="#"><span class="icon-doc-1 icon-nav"></span>Документы</a></li>
+			</ul>
+			<div class="side-bar-info">
+				<div>Блог </div>
+				<div>Разработчикам </div>
+				<div>Реклама </div>
+				<div>Еще <div class="icon-down-open side-bar-info-icon"></div></div>
+			</div>
+		</nav>
+
+		<div class="wall">
+			<div class="submit-post-box">
+				<form method="get" name="add-post-form">
+					<div class="user-photo user-photo-add-post"></div><!--
+					--><input class="add-post" type="text" name="add-post-input" placeholder="Что у Вас новго?"><!--
+					--><div class="icon-smile add-sticker"></div>
+
+					<div class="ms-item">
+						<div class="icon-home icon-add-post"></div>
+						<div class="icon-video icon-add-post"></div>
+						<div class="icon-music icon-add-post"></div>
+						<div class="icon-doc icon-add-post"></div>
+					</div>
+					
+					<div class="ms-item-focused">
+						<div>
+							<div class="icon-home icon-add-post"></div>
+							<div class="icon-video icon-add-post"></div>
+							<div class="icon-music icon-add-post"></div>
+							<div class="icon-doc icon-add-post"></div>
+							<div class="icon-more">Ещё
+								<span class="icon-down-open"></span>
+							</div>
+						</div>
+
+						<div>
+							<input class="add-post-button" type="submit" value="Опубликовать">
+						</div>
+
+					</div>
+				</form>
+			</div>
+			
+			<article class="post">
+				<header class="post-header">
+					<img src="images/post1Logo.jpg" alt="логотип паблка аутентичность" class="public-logo"><!--
+
+					--><div class="post-header-info">
+						<a href="#" class="public-title"><h2>Аутентичность</h2></a>
+						<div class="time">вчера в 18:30</div>
+					</div>
+
+					<div class="group-more">
+						<span class="icon-down-open"></span>
+					</div>
+				</header>
+
+				<div class="post-main">
+					<div class="post-text"></div>
+					<div class="post-content">
+						<img class="post-content-photo" src="images/postPhoto1.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto2.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto3.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto4.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto5.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto6.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto7.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto8.jpg" alt="фотография леса">
+						<img class="post-content-photo" src="images/postPhoto9.jpg" alt="фотография леса">
+					</div>
+					
+					<div class="owner">
+						<div class="icon-user"></div>
+						<a class="owner-name" href="#">fidelio_88</a>
+					</div>	
+				</div>
+
+				<footer class="post-footer">
+					<div class="post-footer-info">
+						<div class="icon-heart-empty footer-icon"><span class="footer-text">169</span></div>
+						<div class="icon-comment-1 footer-icon"><span class="footer-text"></span></div>
+						<div class="icon-forward-outline footer-icon"><span class="footer-text">8</span></div>
+					</div>
+					<div class="views">
+						<div class="icon-eye footer-icon"><span class="footer-text">5.1 K</span></div>
+					</div>
+				</footer>
+
+			</article>
+
+			<article class="post">
+				<header class="post-header">
+					<img src="images/post2Logo.jpg" class="public-logo" alt="логотип паблика программирование"><!--
+
+					--><div class="post-header-info">
+						<a href="#" class="public-title"><h2>Программирование</h2></a>
+						<div class="time">23 ноя в 15:00</div>
+					</div>
+
+					<div class="group-more">
+						<span class="icon-down-open"></span>
+					</div>
+				</header>
+
+				<div class="post-main">
+					<div class="post-text">
+						<p>
+							React и Redux: функциональная веб-разработка
+							Алекс Бэнкс, Ева Порселло
+						</p>
+
+						<p><a href="http://tglink.me/frontend_1/62">tglink.me/frontend_1/62</a></p>
+
+						<p>
+							Хотите научиться писать эффективные пользовательские интерфейсы при помощи React? Тогда вы нашли нужную книгу. Авторы расскажут, как создавать пользовательские интерфейсы при помощи этой компактной библиотеки и писать сайты, на которых можно обрабатывать огромные объемы данных без перезагрузки страниц. Также вы изучите новейшие возможности стандарта ECMAScript и функционального программирования.
+						</p>
+
+						<p><a href="#">#react@bookflow</a></p>
+					</div>
+					<div class="post-content">
+						<img class="post-content-photo" src="images/post2Photo1.jpg" alt="обложка книги React и Redux">
+					</div>
+					
+					<div class="owner">
+						<div class="icon-user"></div>
+						<a class="owner-name" href="#">Джони</a>
+					</div>	
+				</div>
+
+				<footer class="post-footer">
+					<div class="post-footer-info">
+						<div class="icon-heart-empty footer-icon"><span class="footer-text">510</span></div>
+						<div class="icon-comment-1 footer-icon"><span class="footer-text"></span></div>
+						<div class="icon-forward-outline footer-icon"><span class="footer-text">11</span></div>
+					</div>
+					<div class="views">
+						<div class="icon-eye footer-icon"><span class="footer-text">10 K</span></div>
+					</div>
+				</footer>
+
+			</article>
+			
+		</div>
+
+
+		<aside class="aside-wall">
+			<input class="aside-check" type="radio" id="aside-check-news" name="wall-options">
+			<input class="aside-check" type="radio" id="aside-check-rec" name="wall-options" checked>
+			<input class="aside-check" type="radio" id="aside-check-search" name="wall-options">
+			<input class="aside-check" type="radio" id="aside-check-like" name="wall-options">
+			<input class="aside-check" type="radio" id="aside-check-refresh" name="wall-options">
+			<input class="aside-check" type="radio" id="aside-check-comments" name="wall-options">
+
+			<label class="aside-label aside-label-news" for="aside-check-news">
+				<span class="aside-label-button">Новости</span>
+			</label>
+
+			<div class="aside-news-more">
+				<button class="aside-news-more-button">Фотографии</button>
+				<button class="aside-news-more-button">Видеозаписи</button>
+			</div>
+
+			<label class="aside-label aside-label-rec" for="aside-check-rec">
+				<span class="aside-label-button">Рекомендации</span>
+			</label>
+			<label class="aside-label aside-label-search" for="aside-check-search">
+				<span class="aside-label-button">Поиск</span>
+			</label>
+
+			<label class="aside-label aside-label-like" for="aside-check-like">
+				<span class="aside-label-button">Понравилось</span>
+			</label>
+			<label class="aside-label aside-label-refresh" for="aside-check-refresh">
+				<span class="aside-label-button">Обновления</span>
+			</label>
+			<label class="aside-label aside-label-comments" for="aside-check-comments">
+				<span class="aside-label-button">Комментарии</span>
+			</label>
+
+			
+			<div class="aside-interesting">
+				<span class="icon-fire"></span>
+				<span class="aside-interesting-text">Сначала интересные</span>
+
+				<input class="aside-interesting-check" type="checkbox" id="aside-interesting-check">
+				<label class="aside-interesting-icon icon-toggle-on" for="aside-interesting-check"></label>
+				<label class="aside-interesting-icon icon-toggle-off" for="aside-interesting-check"></label>
+			</div>
+
+
+			<div class="aside-search-options">
+				<span class="icon-params"></span>
+				<span class="aside-search-options-text">Параметры поиска</span>
+
+				<input class="aside-search-otions-check" type="checkbox" id="aside-search-options-check">
+				<label class="aside-search-options-icon icon-down-open" for="aside-search-options-check"></label>
+			</div>
+		</aside>
+	</main>
+	
+</body>
+</html>
