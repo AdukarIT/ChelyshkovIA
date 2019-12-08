@@ -33,7 +33,10 @@
 * **[HEADER ДЛЯ АДУКАРА](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork6/task1)**
 * **[VK FEED](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork6/task2)**
 
-
+## ДЗ - Анимация.
+* **[task1](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork7/task1)**
+* **[task2](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork7/task2)**
+* **[task3](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork7/task3)**
 
 
 
