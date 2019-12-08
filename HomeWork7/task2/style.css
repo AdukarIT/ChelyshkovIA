@@ -1,0 +1,10 @@
+.screw{
+	display: block;
+	width: 200px;
+	margin: 50px auto;
+	transition:transform 6s ease-out;
+}
+
+.screw:hover{
+	transform:rotate(1080deg);
+}

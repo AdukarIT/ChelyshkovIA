@@ -1,0 +1,20 @@
+@keyframes SubZero{
+	0%{
+		background-position-x:66px;
+	}
+	50%{
+		background-position: 462px;
+	}
+	100%{
+		background-position: 66px;
+	}
+}
+
+.zero{
+	height: 135px;
+	width: 66px;
+	margin:200px auto; 
+	background-image: url(images/sheet.jpg);
+	animation: SubZero 0.5s linear infinite;
+	animation-timing-function: steps(6);
+}

@@ -1,0 +1,28 @@
+.check{
+	display: none;
+}
+
+.animation-block{
+	margin: 200px auto;
+	height: 200px;
+	width: 1256px;
+	border-radius: 100px;
+	border:2px solid #A328D6FF;
+}
+
+.circle{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background-image: linear-gradient(to right, #A328D6FF, #E8BC16FF);
+	
+	transition:transform 6s ease-out,
+	           margin    6s ease-out;
+}
+
+#circle-check:checked ~ .circle{
+	transform:rotate(720deg);
+	margin-left:calc(100% - 200px);
+	margin-right: 0px;
+}
