@@ -152,6 +152,9 @@ ul, li {
     margin-bottom: 10px;
     width: 100%;
   }
+  .header .header__center-bar {
+    width: 600px;
+  }
 }
 @media (min-width: 1200px) {
   .header {
