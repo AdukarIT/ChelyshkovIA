@@ -38,5 +38,6 @@
 * **[task2](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork7/task2)**
 * **[task3](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork7/task3)**
 
-
+## ДЗ - Sass/SCSS.
+* **[Design Club](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork8)**
 
