@@ -1,0 +1,58 @@
+@keyframes LeftSidebarMove{
+	0%{
+		transform:translateX(-400px);
+	}
+
+	100%{
+		transform:translateX(0);
+	}
+}
+
+
+@keyframes RightSidebarMove{
+	0%{
+		transform:translateX(400px);
+	}
+
+	100%{
+		transform:translateX(0);
+	}
+}
+
+
+
+.side-bar{
+	display: none;
+}
+
+@media(min-width:1200px){
+	.side-bar{
+		box-sizing:border-box;
+		display: flex;
+		width: 316px;
+		flex-direction: column;
+		&.side-bar--left{
+			margin-left: 32px;
+			animation-name: LeftSidebarMove;
+			animation-duration: 1.5s;
+			animation-timing-function: ease-out;
+			animation-fill-mode: forwards;
+			.side-bar__link{
+				border-radius:0 125px 125px 0;
+			}
+		}
+		&.side-bar--right{
+			margin-right: 32px;
+			animation-name: RightSidebarMove;
+			animation-duration: 1.5s;
+			animation-timing-function: ease-out;
+			animation-fill-mode: forwards;
+			.side-bar__link{
+				border-radius: 125px 0 0 125px;
+			}
+		}
+		.side-bar__link{
+			margin-bottom: 32px;
+		}
+	}
+}

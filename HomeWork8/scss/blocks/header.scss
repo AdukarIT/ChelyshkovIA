@@ -1,0 +1,139 @@
+@keyframes HeaderOpacity{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+$HeadersFont: 'Yanone Kaffeesatz', sans-serif;
+$DefaultTextFont: 'Open Sans', sans-serif;
+
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $HeaderBGC;
+	box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+	.header__image{
+		padding-top: 60px;
+		padding-left: 45px;
+		padding-right: 45px;
+		height: 25vw;
+		width: calc(100% - 90px);
+		margin-bottom: 25px;
+	}
+	.header__title{
+		padding-left: 45px;
+		padding-right: 45px;
+		font-family: $HeadersFont;
+		font-color:$HeaderFontColor;
+		width: calc(100% - 90px);
+		display: flex;
+		justify-content: space-between;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.header__title--bold{
+		font-size:25vw;
+	}
+	.header__title--slim{
+		font-size:25vw;
+	}
+	.header__info{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 30px;
+		font-family: $DefaultTextFont;
+		font-size:14px;
+		text-align: center;
+		color:$HeaderFontColor;
+	}
+	.header__social-nets{
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	.header__center-bar{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+@media(min-width:450px){
+	.header{
+		.header__image{
+			padding-top: 60px;
+			height: 150px;
+			width: 343px;
+			margin-bottom: 25px;
+		}
+		.header__title{
+			font-family: $HeadersFont;
+			font-color:$HeaderFontColor;
+			width: 343px;
+			display: flex;
+			justify-content: space-between;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.header__title--bold{
+			font-size: 112.5px;
+		}
+		.header__title--slim{
+			font-size: 112.5px;
+		}
+		.header__info{
+			width: 413px;
+			padding-bottom: 30px;
+			font-family: $DefaultTextFont;
+			font-size:14px;
+			text-align: center;
+			color:$HeaderFontColor;
+		}
+		.header__social-nets{
+			margin-top: 40px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+	}
+}
+
+@media(min-width:1200px){
+	.header{
+		padding-top: 32px;
+		flex-direction: row;
+		justify-content: space-between;
+		background-image: linear-gradient(to right,$HeaderGradLeft, $HeaderGradRight);
+		margin: 30px 45px;
+		border-radius: 2em;
+		.header__image{
+			opacity: 0;
+			animation-name:HeaderOpacity;
+			animation-delay: 1.5s;
+			animation-duration: 2.5s;
+			animation-timing-function: ease-out;
+			animation-fill-mode: forwards;
+		}
+		.header__title{
+			opacity: 0;
+			animation-name:HeaderOpacity;
+			animation-delay: 1.5s;
+			animation-duration: 2.5s;
+			animation-timing-function: ease-out;
+			animation-fill-mode: forwards;			
+		}
+		.header__button{
+			transition:opacity 0.2s linear;
+			&:hover{
+				opacity:0.7;
+			};
+		}
+	}
+}
+
+
+

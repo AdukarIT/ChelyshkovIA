@@ -1,0 +1,371 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz&display=swap";
+@import "fontello-4dceac1e/css/fontello.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul, li {
+  font-style: normal;
+  list-decoration: none;
+}
+
+.follow-link {
+  background-color: #000000;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #EFF0F1FF;
+  font-size: 6vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0.3em;
+}
+
+@media (min-width: 450px) {
+  .follow-link {
+    font-size: 27px;
+  }
+}
+.header-icon {
+  font-size: 13vw;
+  box-size: border-box;
+}
+
+@media (min-width: 450px) {
+  .header-icon {
+    font-size: 58px;
+  }
+  .header-icon.header-icon--hovered {
+    transition: transform 0.2s linear, opacity 0.2s linear;
+  }
+  .header-icon.header-icon--hovered:hover {
+    transform: scale(1.15);
+    opacity: 0.7;
+  }
+}
+@keyframes HeaderOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F0F1F2;
+  box-shadow: -7px 7px 25px 0px rgba(0, 0, 0, 0.37);
+}
+.header .header__image {
+  padding-top: 60px;
+  padding-left: 45px;
+  padding-right: 45px;
+  height: 25vw;
+  width: calc(100% - 90px);
+  margin-bottom: 25px;
+}
+.header .header__title {
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-color: #010101;
+  width: calc(100% - 90px);
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.header .header__title--bold {
+  font-size: 25vw;
+}
+.header .header__title--slim {
+  font-size: 25vw;
+}
+.header .header__info {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #010101;
+}
+.header .header__social-nets {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.header .header__center-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 450px) {
+  .header .header__image {
+    padding-top: 60px;
+    height: 150px;
+    width: 343px;
+    margin-bottom: 25px;
+  }
+  .header .header__title {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-color: #010101;
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .header .header__title--bold {
+    font-size: 112.5px;
+  }
+  .header .header__title--slim {
+    font-size: 112.5px;
+  }
+  .header .header__info {
+    width: 413px;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #010101;
+  }
+  .header .header__social-nets {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    padding-top: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #F5F6F6, #EAEAED);
+    margin: 30px 45px;
+    border-radius: 2em;
+  }
+  .header .header__image {
+    opacity: 0;
+    animation-name: HeaderOpacity;
+    animation-delay: 1.5s;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  .header .header__title {
+    opacity: 0;
+    animation-name: HeaderOpacity;
+    animation-delay: 1.5s;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  .header .header__button {
+    transition: opacity 0.2s linear;
+  }
+  .header .header__button:hover {
+    opacity: 0.7;
+  }
+}
+.main-title-link {
+  background-color: #E9EAE9;
+  width: 80%;
+  height: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-title-link:nth-child(2n) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-title-link:nth-child(2n+1) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-title-link .main-title-link__text {
+  text-align: center;
+}
+.main-title-link .main-title-link__header {
+  font-family: "Open Sans", sans-serif;
+  color: #383838;
+  font-size: 5vw;
+}
+.main-title-link .main-title-link__info {
+  font-family: "Open Sans", sans-serif;
+  color: #646464;
+  font-size: 3vw;
+}
+
+@media (min-width: 600px) {
+  .main-title-link {
+    height: 150px;
+  }
+  .main-title-link .main-title-link__header {
+    font-size: 30px;
+  }
+  .main-title-link .main-title-link__info {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-title-link {
+    height: 250px;
+    width: 284px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-title-link:hover .main-title-link__image {
+    transform: scale(1.5);
+  }
+  .main-title-link .main-title-link__image {
+    transition: transform 0.5s linear;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .main-title-link .main-title-link__header {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .main-title-link .main-title-link__info {
+    font-size: 14.4px;
+    margin-bottom: 20px;
+  }
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main__button {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    display: none;
+  }
+}
+.navigation-image {
+  font-size: 12vw;
+  color: #646464;
+}
+
+@media (min-width: 600px) {
+  .navigation-image {
+    font-size: 72px;
+  }
+}
+.navigation {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navigation .navigation__link {
+  margin-bottom: 20px;
+}
+.navigation .navigation__link:nth-child(2n+1) {
+  align-self: flex-start;
+  border-radius: 0 90px 90px 0;
+}
+.navigation .navigation__link:nth-child(2n) {
+  align-self: flex-end;
+  border-radius: 90px 0 0 90px;
+}
+
+.social-nets {
+  display: flex;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+@media (min-width: 450px) {
+  .social-nets .social-nets__item-block {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    transition: flex-grow 0.2s linear;
+  }
+  .social-nets .social-nets__item-block:hover {
+    flex-grow: 0.05;
+  }
+}
+@keyframes LeftSidebarMove {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes RightSidebarMove {
+  0% {
+    transform: translateX(400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.side-bar {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .side-bar {
+    box-sizing: border-box;
+    display: flex;
+    width: 316px;
+    flex-direction: column;
+  }
+  .side-bar.side-bar--left {
+    margin-left: 32px;
+    animation-name: LeftSidebarMove;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  .side-bar.side-bar--left .side-bar__link {
+    border-radius: 0 125px 125px 0;
+  }
+  .side-bar.side-bar--right {
+    margin-right: 32px;
+    animation-name: RightSidebarMove;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  .side-bar.side-bar--right .side-bar__link {
+    border-radius: 125px 0 0 125px;
+  }
+  .side-bar .side-bar__link {
+    margin-bottom: 32px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

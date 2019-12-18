@@ -1,0 +1,19 @@
+.header-icon{
+	font-size: 13vw;
+	box-size: border-box;
+}
+
+@media(min-width:450px){
+	.header-icon{
+		font-size: 58px;
+		&.header-icon--hovered{
+			transition: transform 0.2s linear,
+						opacity 0.2s linear;
+			&:hover{
+				transform: scale(1.15);
+				opacity:0.7;
+			}	
+		}
+	}
+}
+
