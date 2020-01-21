@@ -42,7 +42,7 @@
 * **[Design Club](https://github.com/AdukarIT/ChelyshkovIA/tree/master/HomeWork8)**
 
 ## ФИНАЛЬНЫЙ ПРОЕКТ CSS
-### [BMWcom](https://chelyshkovia.github.io/BMWproject/BMWcom.html)
-### [BMWreportage](https://chelyshkovia.github.io/BMWproject/BMWreportage.html)
-### [BMWthe2](https://chelyshkovia.github.io/BMWproject/BMWthe2.html)
+* ### [BMWcom](https://chelyshkovia.github.io/BMWproject/BMWcom.html)
+* ### [BMWreportage](https://chelyshkovia.github.io/BMWproject/BMWreportage.html)
+* ### [BMWthe2](https://chelyshkovia.github.io/BMWproject/BMWthe2.html)
 
