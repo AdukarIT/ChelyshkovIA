@@ -48,3 +48,6 @@
 
 ## ДЗ - JS: if, else, switch, for
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork9/main.js)**
+
+## ДЗ - JS: functions
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork10/main.js)**
