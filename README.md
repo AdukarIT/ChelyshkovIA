@@ -51,3 +51,7 @@
 
 ## ДЗ - JS: functions
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork10/main.js)**
+
+## Практика - ДЗ JS
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork11/main.js)**
+
