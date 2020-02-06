@@ -49,9 +49,11 @@
 ## ДЗ - JS: if, else, switch, for
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork9/main.js)**
 
-## ДЗ - JS: functions
+## ДЗ - JS: Функции
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork10/main.js)**
 
 ## Практика - ДЗ JS
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork11/main.js)**
 
+## ДЗ - JS: Массивы
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork12/main.js)**
