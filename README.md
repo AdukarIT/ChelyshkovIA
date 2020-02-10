@@ -57,3 +57,6 @@
 
 ## ДЗ - JS: Массивы
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork12/main.js)**
+
+## ДЗ - JS: Объекты
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork13/main.js)**
