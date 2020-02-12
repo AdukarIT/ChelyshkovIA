@@ -60,3 +60,7 @@
 
 ## ДЗ - JS: Объекты
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/HomeWork13/main.js)**
+
+## ПРАКТИКА + ДЗ - JS: Встроенные возможности JavaScript
+* **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork14/main.js)**
+
