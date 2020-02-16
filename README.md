@@ -63,4 +63,5 @@
 
 ## ПРАКТИКА + ДЗ - JS: Встроенные возможности JavaScript
 * **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork14/main.js)**
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork14/ht.js)**
 
