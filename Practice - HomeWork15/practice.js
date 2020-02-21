@@ -56,14 +56,15 @@ Array.prototype.forEachPollyFill = function(func){
 	}
 }
 
-console.log(arr.mapPollyFill(function(item, index, arr){
-	let arrStr = item.split('');
-	arrStr.reverse();
-	let str = arrStr.join('');
-	return str;
-}).sort(function(el1, el2){
-	return el1.length - el2.length;
-}));
+//ЭТО РАСКОММЕНТИТЬ
+// console.log(arr.mapPollyFill(function(item, index, arr){
+// 	let arrStr = item.split('');
+// 	arrStr.reverse();
+// 	let str = arrStr.join('');
+// 	return str;
+// }).sort(function(el1, el2){
+// 	return el1.length - el2.length;
+// }));
 
 
 function countSymb(arr){
@@ -79,7 +80,10 @@ function countSymb(arr){
 	return count;
 }
 
-console.log(countSymb(arr));
+// console.log(countSymb(arr));
+
+
+
 
 
 
