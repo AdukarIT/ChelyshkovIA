@@ -122,16 +122,13 @@ function arrNormalization(arr) {
 				}
 			}
 			return false;
-		})
-	}
-
-	for(prop in states){
+		});
 		states[prop].forEach(function(item, idx, arr){
 			delete item.growth_from_2000_to_2013;
 			delete item.latitude;
 			delete item.longitude;
 			delete item.state;
-		})
+		});
 	}
 	
 	delete states[''];
