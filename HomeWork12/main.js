@@ -164,9 +164,9 @@ function createRang(arr){
 	let rang = new Array(arr.length);
 	let count = 0;
 	let biggest = Infinity;
-	for(let j = 0; j < arr.length; j++){
+	for(let j = 0; j < arr.length; j += count){
 		let bigger = -Infinity;
-		count++;
+		count = 0;
 		for(let i = 0; i < arr.length; i++){
 			if(arr[i] >= bigger && arr[i] < biggest){
 				bigger = arr[i];
@@ -175,7 +175,8 @@ function createRang(arr){
 
 		for(let i = 0; i < arr.length; i++){
 			if(arr[i] == bigger){
-				rang[i] = count;
+				rang[i] = j + 1;
+				count++;
 			}
 		}
 		biggest = bigger;
@@ -183,7 +184,7 @@ function createRang(arr){
 	return rang;
 }
 
-// let test = createRang(getRandomArray(10));
+// let test = createRang(getRandomArray(20));
 
 
 function removeElements(arr, x){
