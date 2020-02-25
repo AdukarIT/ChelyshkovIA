@@ -14,9 +14,20 @@ function toggleFunc(el){
 
 
 //--3
-function recFunc () {
-
+function recursiveSearchTags(el, tagName) {
+	let arr = [];
+	for(let i = 0; i < el.children.length; i++){
+		if(el.children[i].tagName == tagName){
+			arr.push(el.children[i]);
+		}
+	}
+	for(let i = 0; i < el.children.length; i++){
+		arr = arr.concat(recursiveSearchTags(el.children[i], tagName));
+	}
+	return arr;
 }
+
+// console.log(recursiveSearchTags(document, 'DIV'));
 
 
 //--4
