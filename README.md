@@ -68,3 +68,7 @@
 ## ПРАКТИКА + ДЗ - JS: Продвинутый JavaScript
 * **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork15/practice.js)**
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork15/ht.js)**
+
+## ПРАКТИКА + ДЗ - JS: DOM навигация
+* **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork16/practice1.js)**
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork16/ht.js)**
