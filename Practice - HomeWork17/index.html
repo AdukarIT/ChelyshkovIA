@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Events</title>
+	<script src="practice.js"></script>
+	<script src="practice2.js"></script>
+	<!-- <script src="ht.js"></script> -->
+	<style>
+		/* 1 TASK */
+		.cursor-area {
+			margin-top: 20px;
+			width: 500px;
+			height: 250px;
+			border: 2px solid #000;
+		}
+
+		/* 2 TASK */
+		.folder {
+			cursor: pointer;
+			margin-top: 20px;
+			width: 100px;	
+			height: 100px;
+		}
+
+		.folder--open {
+			background-image: url('images/folderOpen.png');
+			background-position: center center;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+
+		.folder--close {
+			background-image: url('images/folderClose.png');
+			background-position: center center;
+			-webkit-background-size: cover;
+			background-size: cover;
+		}
+
+		/* 3 TASK */
+		.square {
+			width: 30px;
+			height: 30px;
+			margin: 5px;
+			display: inline-block;
+			background-color: purple;
+
+			transition-property: border-radius;
+			transition-duration: 0.3s;
+			transition-timing-function: linear;
+		}
+
+		.square--circle {
+			border-radius: 15px;
+		}
+	</style>	
+</head>
+<body>
+	<!-- PRACTICE 1 -->
+	<button type="" id="t1">кнопка</button>
+
+	<button type="" id="t2">some text</button>
+
+
+	<form action="index_submit" method="get" accept-charset="utf-8">
+		<input type="text" name="" placeholder="input text" id='t3inp'>
+		<input type="button" id='t3d' value='disable'>
+		<input type="button" id='t3a' value='able'>
+	</form>
+
+
+	<!-- PRACTICE 2 (AT HOME)-->
+	<div class='cursor-area'></div>
+
+	<div class="folder folder--close"></div>
+
+	<!-- HT -->
+	<!-- ... -->
+</body>
+</html>
