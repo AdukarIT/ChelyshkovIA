@@ -72,3 +72,7 @@
 ## ПРАКТИКА + ДЗ - JS: DOM навигация
 * **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork16/practice1.js)**
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork16/ht.js)**
+
+## ПРАКТИКА + ДЗ - JS: События. Координаты на странице.
+* **[practice part1 (1-3)](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork17/practice.js)**
+* **[practice part2](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork17/practice2.js)**
