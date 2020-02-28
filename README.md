@@ -76,3 +76,5 @@
 ## ПРАКТИКА + ДЗ - JS: События. Координаты на странице.
 * **[practice part1 (1-3)](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork17/practice.js)**
 * **[practice part2](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork17/practice2.js)**
+* **[tasks (1-6)](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork17/ht.js)**
+* **[slider (task 7)](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork17/slider/script.js)**
