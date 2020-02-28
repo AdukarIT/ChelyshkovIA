@@ -5,8 +5,9 @@
 	<title>JS Events</title>
 	<script src="practice.js"></script>
 	<script src="practice2.js"></script>
-	<!-- <script src="ht.js"></script> -->
+	<script src="ht.js"></script>
 	<style>
+		/* PRACTICE */
 		/* 1 TASK */
 		.cursor-area {
 			margin-top: 20px;
@@ -53,6 +54,50 @@
 		.square--circle {
 			border-radius: 15px;
 		}
+
+
+		/* HOME TASKS */
+		/* 2 TASK */
+		.bordered {
+			border: 2px solid #555;;
+		}
+
+		.striped {
+			border: 2px solid #555;
+			border-style: dotted;
+		}
+
+		.highlight {
+			border: 2px solid #4fa901;
+		}
+
+
+		/* 5 TASK */
+		.task5 {
+			margin-top: 30px;
+			width: 200px;
+			border: 2px solid #555;
+		}
+
+		/* 6 TASK */
+		.image-block {
+			margin-top: 30px;
+			width: 150px;
+			height: 150px;
+		}
+
+		.imageSlide {
+			display: none;
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+
+		.imageSlide--visible{
+			display: block;
+		}
+
+
 	</style>	
 </head>
 <body>
@@ -75,6 +120,46 @@
 	<div class="folder folder--close"></div>
 
 	<!-- HT -->
-	<!-- ... -->
+	<!-- 1 -->
+	<input type="text" name="" id='clonning-input'>
+	<input type="button" name="" value='clone input' id='clonning-btn'>
+
+	<!-- 2 -->
+	<table>
+		<caption>table title and/or explanatory text</caption>
+		<thead>
+			<tr>
+				<th>header</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>data</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<!-- 3 -->
+	<label>bordered<input type="radio" name="chooseClass"></label>
+	<label>striped<input type="radio" name="chooseClass"></label>
+	<label>highlight<input type="radio" name="chooseClass"></label>
+
+	<!-- 4 -->
+	<button type="button" id='btn4'>КАКОЙ-ТО ТЕКСТ</button>
+	<button type="button" id='btn4off'>ОТКЛЮЧИТЬ СОБЫТИЕ</button>
+
+	<!-- 5 -->
+	<div class='task5'>
+		<div>DIV</div>
+		<p>P</p>
+		<a href="#">LINK(A)</a>
+		<input type="text" name="" placeholder="INPUT...">
+	</div>
+
+	<!-- 6 -->
+	<div class="image-block">
+		<img class="imageSlide" id="sun" src="images/sun.png" alt="">
+		<img class="imageSlide imageSlide--visible" id="moon" src="images/crescent-moon.png" alt="">
+	</div>
 </body>
 </html>
