@@ -8,6 +8,7 @@ addEventListener('DOMContentLoaded', () => {
 	let imageBlock = document.querySelector('.image-block');
 	let pictureBlock = document.querySelector('.picture-block');
 	let imgClose = document.querySelector('.close-img');
+	let darkBgc = document.querySelector('.dark-bgc');
 
 	let imgCollection = document.querySelectorAll('.slider-image');
 	
@@ -73,13 +74,15 @@ addEventListener('DOMContentLoaded', () => {
 			imageBlock.classList.add('image-block--visible');
 			document.querySelector('.close-img').classList.add('close-img--visible');
 			isHugeImg = true;
+			darkBgc.classList.add('dark-bgc--visible');
 		}
+	});
 
-		document.querySelector('.close-img').addEventListener('click', () => {
-			isHugeImg = false;
-			document.querySelector('.huge-image').remove();
-			imageBlock.classList.remove('image-block--visible');
-			imgClose.classList.remove('close-img--visible');
-		});
+	document.querySelector('.close-img').addEventListener('click', () => {
+		isHugeImg = false;
+		document.querySelector('.huge-image').remove();
+		imageBlock.classList.remove('image-block--visible');
+		imgClose.classList.remove('close-img--visible');
+		darkBgc.classList.remove('dark-bgc--visible');
 	});
 });
