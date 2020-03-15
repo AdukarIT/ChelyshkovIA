@@ -82,3 +82,6 @@
 ## ПРАКТИКА + ДЗ - JS: Формы. Регулярные выражения.
 * **[practice 3, 5](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork18/practice.js)**
 * **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork18/ht.js)**
+
+## ПРАКТИКА + ДЗ - JS: ООП.
+* **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork19/practice.js)**
