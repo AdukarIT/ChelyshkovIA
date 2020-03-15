@@ -85,3 +85,4 @@
 
 ## ПРАКТИКА + ДЗ - JS: ООП.
 * **[practice](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork19/practice.js)**
+* **[tasks](https://github.com/AdukarIT/ChelyshkovIA/blob/master/Practice%20-%20HomeWork19/ht.js)**
